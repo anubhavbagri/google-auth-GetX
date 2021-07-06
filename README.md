@@ -1,10 +1,8 @@
-# signin_firebase_getx
+## Google authentication in flutter using GetX
 
-A new Flutter project.
+Setup flutter app with firebase for google authentication using [getx](https://pub.dev/packages/get) package
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+> Watch the explanation in this [video](https://www.youtube.com/watch?v=jU92uEYQ6Fs)
 
 A few resources to get you started if this is your first Flutter project:
 
