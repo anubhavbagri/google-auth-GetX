@@ -1,8 +1,8 @@
 ## Google authentication in flutter using GetX
 
-Setup flutter app with firebase for google authentication using [getx](https://pub.dev/packages/get) package
+Setup flutter app with [firebase](https://pub.dev/packages/firebase_core) for google [authentication](https://pub.dev/packages/firebase_auth) using [getx](https://pub.dev/packages/get) package
 
-> Watch the explanation in this [video](https://www.youtube.com/watch?v=jU92uEYQ6Fs)
+> Made using [this](https://www.youtube.com/watch?v=jU92uEYQ6Fs) youtube tutorial
 
 A few resources to get you started if this is your first Flutter project:
 
