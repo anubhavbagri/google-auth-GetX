@@ -1,11 +1,10 @@
 import 'package:get/get.dart';
-
-import 'package:signin_firebase_getx/app/modules/home/bindings/home_binding.dart';
-import 'package:signin_firebase_getx/app/modules/home/bindings/login_binding.dart';
-import 'package:signin_firebase_getx/app/modules/home/bindings/welcome_binding.dart';
-import 'package:signin_firebase_getx/app/modules/home/views/home_view.dart';
-import 'package:signin_firebase_getx/app/modules/home/views/login_view.dart';
-import 'package:signin_firebase_getx/app/modules/home/views/welcome_view.dart';
+import 'package:signin_firebase_getx/bindings/home_binding.dart';
+import 'package:signin_firebase_getx/bindings/login_binding.dart';
+import 'package:signin_firebase_getx/bindings/welcome_binding.dart';
+import 'package:signin_firebase_getx/views/home_view.dart';
+import 'package:signin_firebase_getx/views/login_view.dart';
+import 'package:signin_firebase_getx/views/welcome_view.dart';
 
 part 'app_routes.dart';
 
