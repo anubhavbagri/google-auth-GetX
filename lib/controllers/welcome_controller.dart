@@ -9,7 +9,7 @@ class WelcomeController extends GetxController {
   @override
   void onInit() async {
     super.onInit();
-    user = Get.arguments();
+    user = Get.arguments;
   }
 
   @override

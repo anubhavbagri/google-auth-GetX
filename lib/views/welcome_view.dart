@@ -18,28 +18,24 @@ class WelcomeView extends GetView<WelcomeController> {
             SizedBox(
               height: 16,
             ),
-            Obx(
-              () => CircleAvatar(
-                radius: 70,
-                backgroundImage: NetworkImage(controller.user!.photoURL!),
-              ),
+            CircleAvatar(
+              radius: 50,
+              backgroundImage: NetworkImage(controller.user!.photoURL!),
             ),
             SizedBox(
               height: 10,
             ),
-            Obx(
-              () => Text(
-                'Display Name : ${controller.user!.displayName}',
-                style: TextStyle(fontSize: 18, color: Colors.white),
-              ),
+            Text(
+              'Display Name : ${controller.user!.displayName}',
+              style: TextStyle(fontSize: 18, color: Colors.white),
             ),
             SizedBox(
               height: 10,
             ),
-            Obx(() => Text(
-                  controller.user!.email!,
-                  style: TextStyle(fontSize: 16, color: Colors.white),
-                )),
+            Text(
+              controller.user!.email!,
+              style: TextStyle(fontSize: 16, color: Colors.white),
+            ),
             SizedBox(
               height: 10,
             ),
