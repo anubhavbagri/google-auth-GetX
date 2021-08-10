@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:signin_firebase_getx/app/modules/home/controllers/welcome_controller.dart';
+import 'package:signin_firebase_getx/controllers/welcome_controller.dart';
 
 class WelcomeBinding extends Bindings {
   @override

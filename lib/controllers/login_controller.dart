@@ -1,8 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:signin_firebase_getx/app/modules/home/controllers/home_controller.dart';
-import 'package:signin_firebase_getx/app/modules/home/customFullScreenDialog.dart';
+import 'package:signin_firebase_getx/components/customFullScreenDialog.dart';
+
+import 'home_controller.dart';
 
 class LoginController extends GetxController {
   HomeController homeController = Get.find<HomeController>();

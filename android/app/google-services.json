@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "816991479057-n2p81cc2jcmq2n167quoi6eeqs0r6ceb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.signin_firebase_getx",
+            "certificate_hash": "0778aa412ab269c34461ba47aa3f4affafad14e3"
+          }
+        },
+        {
           "client_id": "816991479057-1rc1huk6qaosatoeffc1kod3guu3adfq.apps.googleusercontent.com",
           "client_type": 3
         }

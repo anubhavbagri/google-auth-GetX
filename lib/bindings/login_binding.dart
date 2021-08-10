@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:signin_firebase_getx/app/modules/home/controllers/login_controller.dart';
+import 'package:signin_firebase_getx/controllers/login_controller.dart';
 
 class LoginBinding extends Bindings {
   @override
